@@ -6,7 +6,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const FourthPart = () => {
     return (
-        <div className="container fourth-part">
+        <div className="container fourth-part mt-5 mb-5">
             <h1 className="text-body text-uppercase font-weight-bold text-center mb-5">Training <span id="span-text">Programs</span></h1>
             <div className="row mt-5 mb-5">
                 <div className="col-md-6 custom-design">

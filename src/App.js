@@ -5,6 +5,7 @@ import SecondPart from './Components/SecondPart/SecondPart';
 import Footer from './Components/Footer/Footer';
 import ThirdPart from './Components/ThirdPart/ThirdPart';
 import FourthPart from './Components/FourthPart/FourthPart';
+import FifthPart from './Components/FifthPart/FifthPart';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SecondPart/>
       <ThirdPart/>
       <FourthPart/>
+      <FifthPart/>
       <Footer/>
       
     </div>
