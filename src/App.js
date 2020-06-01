@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import SecondPart from './Components/SecondPart/SecondPart';
 import Footer from './Components/Footer/Footer';
 import ThirdPart from './Components/ThirdPart/ThirdPart';
+import FourthPart from './Components/FourthPart/FourthPart';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <SecondPart/>
       <ThirdPart/>
+      <FourthPart/>
       <Footer/>
       
     </div>
