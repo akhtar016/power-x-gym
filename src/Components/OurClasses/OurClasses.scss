@@ -1,0 +1,42 @@
+#psycho-training, #self-defense, #advanced-gym, #cardio-training,
+#strength-training,#psycho-training-2
+{
+    background-size: cover;
+    background-position: center center;
+    min-height: 350px;
+    width: 32%;
+}
+
+#psycho-training {
+    background-image: url(../../images/psycho-training.png);
+}
+
+#self-defense {
+    background-image: url(../../images/self-defense.jpg);
+}
+
+#advanced-gym {
+    background-image: url(../../images/advanced-gym.jpg);
+}
+#cardio-training {
+    background-image: url(../../images/cardio-training.jpg);
+}
+#strength-training {
+    background-image: url(../../images/strength-training.jpg);
+}
+#psycho-training-2 {
+    background-image: url(../../images/psycho-training-2.jpg);
+}
+
+.custom-btn {
+    position: absolute;
+    top: 92%;
+    background-color:#fcd842;
+    transform: translate();
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+

@@ -4,7 +4,7 @@
     text-align: center;
 }
 
-#card1 {
+#card1, #card2, #card3 {
     background-image: url(../../images/image-background-card1.jpg);
     background-size: cover;
     background-position: center center;
@@ -13,22 +13,14 @@
     opacity: 0.8;
 }
 
+
+
 #card2 {
     background-image: url(../../images/image-background-card2.jpg);
-    background-size: cover;
-    background-position: bottom;
-    min-height: 350px;
-    width: 32%;
-    opacity: 0.8;
 }
 
 #card3 {
     background-image: url(../../images/image-background-card3.jpg);
-    background-size: cover;
-    background-position:center center;
-    min-height: 350px;
-    width: 32%;
-    opacity: 0.8;
 }
 
 .card1 , .card2, .card3 {

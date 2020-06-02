@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
@@ -42,9 +43,9 @@ const Header = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#subscribe">
+               <Link to="/our-classes" className="nav-link"> 
                   Our Classes
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/">

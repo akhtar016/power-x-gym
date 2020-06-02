@@ -1,23 +1,40 @@
-import React from 'react';
-import './App.css';
-import Header from './Components/Header/Header';
-import SecondPart from './Components/SecondPart/SecondPart';
-import Footer from './Components/Footer/Footer';
-import ThirdPart from './Components/ThirdPart/ThirdPart';
-import FourthPart from './Components/FourthPart/FourthPart';
-import FifthPart from './Components/FifthPart/FifthPart';
+import React from "react";
+import "./App.css";
+import Header from "./Components/Header/Header";
+import SecondPart from "./Components/SecondPart/SecondPart";
+import Footer from "./Components/Footer/Footer";
+import ThirdPart from "./Components/ThirdPart/ThirdPart";
+import FourthPart from "./Components/FourthPart/FourthPart";
+import FifthPart from "./Components/FifthPart/FifthPart";
+import {BrowserRouter as Router,Route, Switch } from "react-router-dom";
+import NotFound from "./Components/NotFound/NotFound";
+import OurClasses from "./Components/OurClasses/OurClasses";
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <SecondPart/>
-      <ThirdPart/>
-      <FourthPart/>
-      <FifthPart/>
-      <Footer/>
-      
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Header />
+          <SecondPart />
+          <ThirdPart />
+          <FourthPart />
+          <FifthPart />
+          <Footer />
+        </Route>
+
+        <Route path="/our-classes">
+
+          <OurClasses/>
+          <Footer/>
+
+        </Route>
+
+        <Route path="*">
+          <NotFound />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
