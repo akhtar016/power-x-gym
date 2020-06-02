@@ -115,7 +115,7 @@ const AdvancedGym = () => {
               </p>
             </div>
             <div className="mt-5 ml-2">
-            <Link to="/pricing-"><h4 id="my-button">Join Us</h4></Link>
+            <Link to="/pricing"><h4 id="my-button">Join Us</h4></Link>
           </div>
           </div>
 
