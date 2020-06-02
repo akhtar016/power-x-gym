@@ -28,7 +28,7 @@ const OurClasses = () => {
           className="card3 d-flex align-items-end mt-5 mb-5 position-relative justify-content-center"
           id="advanced-gym"
         >
-          <Link to="/advanced-gym" className="font-weight-bold text-uppercase custom-btn text-center">
+          <Link to="/advance-gym" className="font-weight-bold text-uppercase custom-btn text-center">
             Advance gym <FontAwesomeIcon icon={faArrowRight} />
           </Link>
           

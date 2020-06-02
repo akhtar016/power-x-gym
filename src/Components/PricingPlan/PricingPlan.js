@@ -14,8 +14,8 @@ const PricingPlan = () => {
         </p>
       </div>
 
-      <div className="cards mt-5 mb-5">
-        <div className="card1">
+      <div className="row">
+        <div className="card1 my-bg text-center mr-2 mt-5 mb-5" id="bg1">
           <div className="pricing-box">
             <h5 id="billed-monthly-text">Billed Monthly</h5>
             <h1 id="pricing-head">Advance Plan</h1>
@@ -25,11 +25,37 @@ const PricingPlan = () => {
             <p>Free Custom</p>
             <p>Outstanding</p>
             <p>Happy Customers</p>
-            <button>Purchase</button>
+            <button id="my-btn">Purchase</button>
           </div>
         </div>
-        
-       
+
+        <div className="card1 my-bg text-center mr-2 mt-5 mb-5" id="bg2">
+          <div className="pricing-box">
+            <h5 id="billed-monthly-text">Billed Monthly</h5>
+            <h1 id="pricing-head">Basic Plan</h1>
+            <h2 id="amount">$120</h2>
+            <p>Mobile Optimized</p>
+            <p>Best Hosting</p>
+            <p>Free Custom</p>
+            <p>Outstanding</p>
+            <p>Happy Customers</p>
+            <button id="my-btn">Purchase</button>
+          </div>
+        </div>
+
+        <div className="card1 my-bg text-center mr-2 mt-5 mb-5" id="bg3">
+          <div className="pricing-box">
+            <h5 id="billed-monthly-text">Billed Monthly</h5>
+            <h1 id="pricing-head">Beginners</h1>
+            <h2 id="amount">$90</h2>
+            <p>Mobile Optimized</p>
+            <p>Best Hosting</p>
+            <p>Free Custom</p>
+            <p>Outstanding</p>
+            <p>Happy Customers</p>
+            <button id="my-btn">Purchase</button>
+          </div>
+        </div>
       </div>
     </div>
   );

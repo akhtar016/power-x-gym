@@ -11,6 +11,9 @@ import NotFound from "./Components/NotFound/NotFound";
 import OurClasses from "./Components/OurClasses/OurClasses";
 import AdvancedGym from "./Components/AdvancedGym/AdvancedGym";
 import PricingPlan from "./Components/PricingPlan/PricingPlan";
+import OurClassesHeader from "./Components/OurClassHeader/OurClassesHeader";
+import AdvanceGymHeader from "./Components/AdvanceGymHeader/AdvanceGymHeader";
+import PricingHeader from "./Components/PricingHeader/PricingHeader";
 
 function App() {
   return (
@@ -26,19 +29,30 @@ function App() {
         </Route>
 
         <Route path="/our-classes">
-          <OurClasses></OurClasses>
-          <Footer />
+          <OurClassesHeader/>
+          <OurClasses/>
+          <Footer/>
         </Route>
 
-        <Route path="/advanced-gym">
-          <AdvancedGym />
-          <Footer />
+        <Route path="/advance-gym">
+          <AdvanceGymHeader/>
+          <AdvancedGym/>
+          <Footer/>
         </Route>
 
-        <Route path="/pricing-plan">
+        <Route to="/pricing">
+          <PricingHeader/>
           <PricingPlan></PricingPlan>
-          <Footer />
+          <Footer/>
         </Route>
+
+        
+
+       
+
+      
+
+      
 
         <Route path="*">
           <NotFound />

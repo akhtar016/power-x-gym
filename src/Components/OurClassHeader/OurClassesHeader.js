@@ -1,13 +1,10 @@
-import React from "react";
-import "./Header.scss";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
-import { Link } from "react-router-dom";
+import React from 'react';
+import "./OurClassesHeader.scss";
+import { Link } from 'react-router-dom';
 
-
-const Header = () => {
-  return (
-    <div className="background-img">
+const OurClassesHeader = () => {
+    return (
+        <div className="bg-img">
       <div className="container">
         {/* Navbar */}
         <nav class="navbar navbar-expand-lg pt-5">
@@ -73,28 +70,17 @@ const Header = () => {
         </div>
       </nav>
       {/* Navbar */}
-        <div className="container bottom-section">
-          <div className="row">
-            <div className="col-md-6 left-area">
-              <h1 id="margin">The best fitness</h1>
-              <h1>studio in town</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Aperiam, quod. Illum quaerat qui quidem vitae atque. Nam dolorem
-                doloribus dicta? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, cumque?
-              </p>
-              <a href='/'>Join us</a>
+        <div className="container">
+
+            <div className="d-flex justify-content-center">
+                <h1 className="text-white font-weight-bold text-uppercase" id="margin-top">Our Classes</h1>
             </div>
-            <div className="col-md-6 d-flex align-items-center justify-content-center flex-column">
-              <div class="vl" id="margin"></div>
-              <div className="font-icon"><FontAwesomeIcon icon={faPlayCircle} /></div>
-              <div class="vl"></div>
-            </div>
+         
           </div>
         </div>
       </div>
-    </div>
-  );
+    
+    );
 };
 
-export default Header;
+export default OurClassesHeader;

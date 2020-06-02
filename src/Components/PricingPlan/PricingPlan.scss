@@ -21,6 +21,33 @@
 #pricing-head {
     font-size: 35px;
     font-weight: 900;
-    
+}
 
+.my-bg {
+    background-size: cover;
+    background-position: center center;
+    min-height: 350px;
+    width: 32%;
+    opacity: 0.8;
+}
+
+#bg1 {
+    background-image: url(../../images/pricing1.jpg);
+}
+
+#bg2 {
+    background-image: url(../../images/pricing2.jpg);
+}
+
+#bg3 {
+    background-image: url(../../images/pricing3.jpg);
+}
+
+#my-btn {
+    background-color:#fcd842;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px;
 }

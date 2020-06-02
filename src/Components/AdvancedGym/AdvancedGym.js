@@ -6,7 +6,7 @@ const AdvancedGym = () => {
   return (
     <div className="container mt-5">
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-5">
           <img
             className="img-fluid"
             src={require("../../images/advanced-gym.jpg")}
@@ -73,7 +73,7 @@ const AdvancedGym = () => {
           </div>
         </div>
 
-        <div className="col-md-6 pt-3">
+        <div className="col-md-7 pt-3">
           <h1 className="text-uppercase text-body font-weight-bold mb-5">
             <span id="text2">Class</span> Schedule
           </h1>
@@ -114,11 +114,12 @@ const AdvancedGym = () => {
                 7:00 PM - 8:00 PM
               </p>
             </div>
+            <div className="mt-5 ml-2">
+            <Link to="/pricing-"><h4 id="my-button">Join Us</h4></Link>
+          </div>
           </div>
 
-          <div>
-            <Link to="/pricing-plan"><h4>Join Us</h4></Link>
-          </div>
+        
         </div>
       </div>
     </div>
