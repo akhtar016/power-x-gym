@@ -50,8 +50,8 @@ function App() {
         </Route>
 
 
-        <Route path="/membership">
-          <MembershipFirstHead/>
+        <Route path="/personal-details">
+        <MembershipFirstHead/>
         <MembershipFirst></MembershipFirst>
         <Footer/>
         </Route>

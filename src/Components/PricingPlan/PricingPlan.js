@@ -1,5 +1,6 @@
 import React from "react";
 import "./PricingPlan.scss";
+import { Link } from "react-router-dom";
 
 const PricingPlan = () => {
   return (
@@ -25,7 +26,9 @@ const PricingPlan = () => {
             <p>Free Custom</p>
             <p>Outstanding</p>
             <p>Happy Customers</p>
-            <button id="my-btn">Purchase</button>
+            <Link to="/personal-details">
+              <button id="my-btn">Purchase</button>
+            </Link>
           </div>
         </div>
 
@@ -39,7 +42,9 @@ const PricingPlan = () => {
             <p>Free Custom</p>
             <p>Outstanding</p>
             <p>Happy Customers</p>
-            <button id="my-btn">Purchase</button>
+            <Link to="/personal-details">
+              <button id="my-btn">Purchase</button>
+            </Link>
           </div>
         </div>
 
@@ -53,7 +58,9 @@ const PricingPlan = () => {
             <p>Free Custom</p>
             <p>Outstanding</p>
             <p>Happy Customers</p>
-            <button id="my-btn">Purchase</button>
+            <Link to="/personal-details">
+              <button id="my-btn">Purchase</button>
+            </Link>
           </div>
         </div>
       </div>
