@@ -14,6 +14,9 @@ import PricingPlan from "./Components/PricingPlan/PricingPlan";
 import OurClassesHeader from "./Components/OurClassHeader/OurClassesHeader";
 import AdvanceGymHeader from "./Components/AdvanceGymHeader/AdvanceGymHeader";
 import PricingHeader from "./Components/PricingHeader/PricingHeader";
+import MembershipFirst from "./Components/MembershipFirst/MembershipFirst";
+import MembershipFirstHead from "./Components/MembershipFirstHead/MembershipFirstHead";
+import BankPayment from "./Components/BankPayment/BankPayment";
 
 function App() {
   return (
@@ -40,12 +43,25 @@ function App() {
           <Footer/>
         </Route>
 
-        <Route to="/pricing">
+        <Route path="/pricing">
           <PricingHeader/>
           <PricingPlan></PricingPlan>
           <Footer/>
         </Route>
 
+
+        <Route path="/membership">
+          <MembershipFirstHead/>
+        <MembershipFirst></MembershipFirst>
+        <Footer/>
+        </Route>
+
+        <Route path="/payment">
+          <MembershipFirstHead/>
+          <BankPayment/>
+          <Footer/>
+
+        </Route>
         
 
        
