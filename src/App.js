@@ -6,10 +6,11 @@ import Footer from "./Components/Footer/Footer";
 import ThirdPart from "./Components/ThirdPart/ThirdPart";
 import FourthPart from "./Components/FourthPart/FourthPart";
 import FifthPart from "./Components/FifthPart/FifthPart";
-import {BrowserRouter as Router,Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NotFound from "./Components/NotFound/NotFound";
 import OurClasses from "./Components/OurClasses/OurClasses";
 import AdvancedGym from "./Components/AdvancedGym/AdvancedGym";
+import PricingPlan from "./Components/PricingPlan/PricingPlan";
 
 function App() {
   return (
@@ -25,16 +26,18 @@ function App() {
         </Route>
 
         <Route path="/our-classes">
-
           <OurClasses></OurClasses>
-          <Footer/>
-
+          <Footer />
         </Route>
 
         <Route path="/advanced-gym">
-          <AdvancedGym/>
-          <Footer/>
+          <AdvancedGym />
+          <Footer />
+        </Route>
 
+        <Route path="/pricing-plan">
+          <PricingPlan></PricingPlan>
+          <Footer />
         </Route>
 
         <Route path="*">

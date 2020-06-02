@@ -1,5 +1,6 @@
 import React from "react";
 import "./AdvancedGym.scss";
+import { Link } from "react-router-dom";
 
 const AdvancedGym = () => {
   return (
@@ -115,8 +116,8 @@ const AdvancedGym = () => {
             </div>
           </div>
 
-          <div className="">
-            <h4>Join Us</h4>
+          <div>
+            <Link to="/pricing-plan"><h4>Join Us</h4></Link>
           </div>
         </div>
       </div>
