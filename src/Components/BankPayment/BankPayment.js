@@ -120,7 +120,7 @@ const BankPayment = () => {
               src={require("../../images/paypal.png")}
               alt=""
               width="max-content"
-              height="max-content"
+              height="40px"
             />
          
           </div>
