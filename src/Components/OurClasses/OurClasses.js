@@ -2,6 +2,7 @@ import React from "react";
 import "./OurClasses.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const OurClasses = () => {
   return (
@@ -27,9 +28,10 @@ const OurClasses = () => {
           className="card3 d-flex align-items-end mt-5 mb-5 position-relative justify-content-center"
           id="advanced-gym"
         >
-          <h3 className="font-weight-bold text-uppercase custom-btn text-center">
+          <Link to="/advanced-gym" className="font-weight-bold text-uppercase custom-btn text-center">
             Advance gym <FontAwesomeIcon icon={faArrowRight} />
-          </h3>
+          </Link>
+          
         </div>
       </div>
 

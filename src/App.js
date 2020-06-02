@@ -9,6 +9,7 @@ import FifthPart from "./Components/FifthPart/FifthPart";
 import {BrowserRouter as Router,Route, Switch } from "react-router-dom";
 import NotFound from "./Components/NotFound/NotFound";
 import OurClasses from "./Components/OurClasses/OurClasses";
+import AdvancedGym from "./Components/AdvancedGym/AdvancedGym";
 
 function App() {
   return (
@@ -25,7 +26,13 @@ function App() {
 
         <Route path="/our-classes">
 
-          <OurClasses/>
+          <OurClasses></OurClasses>
+          <Footer/>
+
+        </Route>
+
+        <Route path="/advanced-gym">
+          <AdvancedGym/>
           <Footer/>
 
         </Route>
