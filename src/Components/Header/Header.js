@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
+import ModalVideo from 'react-modal-video';
 
 
 const Header = () => {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  function videoOpen () {
+    setIsOpen(true)
+  }
+
+
   return (
     <div className="background-img">
       <div className="container">
@@ -87,7 +96,11 @@ const Header = () => {
             </div>
             <div className="col-md-6 d-flex align-items-center justify-content-center flex-column">
               <div class="vl" id="margin"></div>
-              <div className="font-icon"><FontAwesomeIcon icon={faPlayCircle} /></div>
+
+              <div className="font-icon">
+              <ModalVideo channel='youtube' isOpen = {isOpen} videoId='XhBLkoQpLMw' onClose={()=> setIsOpen(false)} />
+                <FontAwesomeIcon icon={faPlayCircle} onClick={videoOpen} id="video-play"/>
+                </div>
               <div class="vl"></div>
             </div>
           </div>
