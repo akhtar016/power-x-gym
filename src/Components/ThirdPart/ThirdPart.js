@@ -6,7 +6,8 @@ const ThirdPart = () => {
         <div className="container third-part">
             <div className="row">
             <div className="col-md-5">
-                <img className="img-fluid" src={require('../../images/third-part.jpg')} alt=""/>
+                {/* <img className="img-fluid" src={require('../../images/third-part.jpg')} alt=""/> */}
+                <img className="img-fluid" src="https://i.ibb.co/wRBNQtZ/third-part.jpg" alt="third-part"/>
 
             </div>
             <div className="col-md-7 pl-5 pr-4">

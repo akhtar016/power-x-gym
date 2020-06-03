@@ -12,7 +12,7 @@ const Footer = () => {
             </h2>
           </div>
           <div className="col-md-2">
-            <p>Need Help?</p>
+            <p className="font-weight-bold">Need Help?</p>
             <p>Help Center</p>
             <p>Email Support</p>
             <p>Live Chat</p>
@@ -20,12 +20,12 @@ const Footer = () => {
             <p>Send Us Feedback</p>
           </div>
           <div className="col-md-2">
-            <p>Digital Resources</p>
+            <p className="font-weight-bold">Digital Resources</p>
             <p>Articles</p>
             <p>E-books</p>
           </div>
           <div className="col-md-2">
-            <p>Connect with Us</p>
+            <p className="font-weight-bold">Connect with Us</p>
             <div className="d-flex justify-content-between mb-3">
             <img src={require('../../images/bxl-youtube.png')} alt=""/>
             <img src={require('../../images/bxl-facebook.png')} alt=""/>
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
 
           <div className="col-md-3">
-            <p>Join Our Newsletter</p>
+            <p className="font-weight-bold">Join Our Newsletter</p>
             <p>
               Get exclusive news, features, and updates from The Shredder Weight
               Loss Academy.
