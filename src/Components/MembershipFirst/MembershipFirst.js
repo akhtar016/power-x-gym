@@ -34,26 +34,11 @@ const MembershipFirst = () => {
         </div>
 
         <div class="form-row">
-          <div class="form-group col-md-2">
+          <div class="form-group col-md-6">
             <label for="date-of-birth">Date of Birth</label>
-            <select id="date-of-birth-state" class="form-control">
-              <option selected>Day</option>
-              <option>1</option>
-            </select>
-          </div>
-          <div class="form-group col-md-2">
-            <label for="date-of-birth">Month</label>
-            <select id="date-of-birth-state" class="form-control">
-              <option selected>Month</option>
-              <option>1</option>
-            </select>
-          </div>
-          <div class="form-group col-md-2">
-            <label for="inputState">Year</label>
-            <select id="inputState" class="form-control">
-              <option selected>Year</option>
-              <option>2020</option>
-            </select>
+            <input class="form-control" type="date"  id="date-of-birth"/>
+            
+           
           </div>
 
           <div class="form-group col-md-6">

@@ -83,7 +83,7 @@ const Header = () => {
                 Aperiam, quod. Illum quaerat qui quidem vitae atque. Nam dolorem
                 doloribus dicta? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, cumque?
               </p>
-              <a href='/'>Join us</a>
+              <Link to="/pricing"><a href>Join us</a></Link>
             </div>
             <div className="col-md-6 d-flex align-items-center justify-content-center flex-column">
               <div class="vl" id="margin"></div>
