@@ -7,10 +7,15 @@ const AdvancedGym = () => {
     <div className="container mt-5">
       <div className="row">
         <div className="col-md-5">
-          <img
+          {/* <img
             className="img-fluid"
             src={require("../../images/advanced-gym.jpg")}
             alt=""
+          /> */}
+
+        <img
+            className="img-fluid"
+            src="https://i.ibb.co/rdWZSGV/advanced-gym.jpg" alt="advanced-gym"
           />
           <p className="text-body mt-4 mb-5 text-justify">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
