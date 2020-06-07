@@ -4,7 +4,7 @@ It is a GYM's website where
 - Stripe is added for payment method.  
 
 ## Deployment
-This website is deployed in Firebase.
+This website is deployed on Firebase.
 
 ## Screenshots
 
